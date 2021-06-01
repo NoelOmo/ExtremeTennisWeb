@@ -23,36 +23,30 @@ const Header = ({ t }) => {
 
   const HeaderBar = () => {
     return (
-        <S.CustomeHeaderBg>
+      <S.CustomeHeaderBg>
         <Row type="flex" justify="space-between" gutter={20}>
-        <S.DarkLogoContainer to="/" aria-label="homepage">
-          <SvgIcon src="logo.svg" />
-        </S.DarkLogoContainer>
-        <S.WhiteHeaderText>Extreme Tennis</S.WhiteHeaderText>
-        <S.LogoContainer to="/" aria-label="homepage">
-          </S.LogoContainer>
-          <S.LogoContainer to="/" aria-label="homepage">
-          </S.LogoContainer>
-          <S.LogoContainer to="/" aria-label="homepage">
-          </S.LogoContainer>
-          <S.LogoContainer to="/" aria-label="homepage">
-          </S.LogoContainer>
-        <S.WhiteHeaderTextSmall>+254 773 000 000</S.WhiteHeaderTextSmall>
-        <S.WhiteHeaderTextSmall>info@extremetennis.com</S.WhiteHeaderTextSmall>
-        <S.CustomButtomLinkSmall
-          style={{ width: "180px"}}
-        >
-          <S.Span>
-            <Button>{t("Book a Camp")}</Button>
-          </S.Span>
-        </S.CustomButtomLinkSmall>
-          <S.LogoContainer to="/" aria-label="homepage">
-          </S.LogoContainer>
-
+          <S.DarkLogoContainer to="/" aria-label="homepage">
+            <SvgIcon src="logo1.svg" />
+          </S.DarkLogoContainer>
+          {/* <S.WhiteHeaderText>ExtremeTennis</S.WhiteHeaderText> */}
+          {/* <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
+          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
+          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
+          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer> */}
+          <S.WhiteHeaderTextSmall>+254 773 000 000</S.WhiteHeaderTextSmall>
+          <S.WhiteHeaderTextSmall>
+            info@extremetennis.com
+          </S.WhiteHeaderTextSmall>
+          <S.CustomButtomLinkSmall style={{ width: "180px" }}>
+            <S.Span>
+              <Button>{t("Book a Camp")}</Button>
+            </S.Span>
+          </S.CustomButtomLinkSmall>
+          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
         </Row>
-        </S.CustomeHeaderBg>
+      </S.CustomeHeaderBg>
     );
-  }
+  };
 
   const MenuItem = () => {
     const scrollTo = (id) => {
@@ -65,13 +59,19 @@ const Header = ({ t }) => {
     return (
       <Fragment>
         <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <S.Span>{t("About")}</S.Span>
+          <S.Span>{t("The Academy")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <S.Span>{t("Mission")}</S.Span>
+          <S.Span>{t("Our Programmes")}</S.Span>
+        </S.CustomNavLinkSmall>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+          <S.Span>{t("Our Values")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <S.Span>{t("Product")}</S.Span>
+          <S.Span>{t("The Team")}</S.Span>
+        </S.CustomNavLinkSmall>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+          <S.Span>{t("Shop")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
           style={{ width: "180px" }}
@@ -89,7 +89,7 @@ const Header = ({ t }) => {
     <S.Header>
       <S.Container>
         <Row type="flex" justify="space-between" gutter={70}>
-            <HeaderBar />
+          <HeaderBar />
         </Row>
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">

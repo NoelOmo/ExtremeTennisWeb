@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import { MenuOutlined } from '@ant-design/icons';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { MenuOutlined } from "@ant-design/icons";
 
 export const Header = styled.header`
   padding: 0rem;
@@ -15,16 +15,16 @@ export const DarkLogoContainer = styled(Link)`
   display: inline-flex;
   margin-left: 20px;
   margin-top: 25px;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
 `;
 
 export const Container = styled.div`
   position: relative;
   width: 100%;
   max-width: 1280px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 `;
@@ -49,7 +49,7 @@ export const CustomNavLink = styled.div`
 
 export const ContactWrapper = styled.div`
   cursor: pointer;
-  width: ${(props) => (props.width ? '100%' : '110px')};
+  width: ${(props) => (props.width ? "100%" : "110px")};
   font-weight: 700;
   text-align: center;
   border-radius: 1.25rem;
@@ -79,8 +79,9 @@ export const Menu = styled.h5`
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #000000;
+
   transition: color 0.2s ease-in;
   margin: 0.25rem 2rem;
 
@@ -90,7 +91,8 @@ export const CustomNavLinkSmall = styled(NavLink)`
 `;
 
 export const CustomButtomLinkSmall = styled(NavLink)`
-  font-size: 1rem;
+  font-size: 1.1rem;
+
   color: #000000;
   transition: color 0.2s ease-in;
   margin: 0 2rem 10px 2rem;
@@ -99,7 +101,6 @@ export const CustomButtomLinkSmall = styled(NavLink)`
     margin: 1.25rem 2rem;
   }
 `;
-
 
 export const WhiteHeaderText = styled(NavLink)`
   font-size: 1.5rem;
@@ -126,23 +127,23 @@ export const WhiteHeaderTextSmall = styled(NavLink)`
 `;
 
 export const Button = styled(NavLink)`
-background: #2e186a;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 700;
-    width: 100%;
-    border: 0px;
-    border-radius: 8px;
-    height: 60px;
-    outline: none;
-    cursor: pointer;
-    margin-top: 0.625rem;
-    max-width: 180px;
+  background: #2e186a;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  border: 0px;
+  border-radius: 8px;
+  height: 60px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0.625rem;
+  max-width: 180px;
 `;
 
 export const CustomeHeaderBg = styled(NavLink)`
   font-size: 1rem;
-  background-color: #161314e3;
+  background-color: green;
   width: 100%;
   text-align: left !important;
 `;
@@ -157,7 +158,7 @@ export const Label = styled.span`
 
 export const Outline = styled(MenuOutlined)`
   font-size: 22px;
-  padding-right: ${(props) => (props.padding ? '10px' : '')};
+  padding-right: ${(props) => (props.padding ? "10px" : "")};
 `;
 
 export const Span = styled.span`
