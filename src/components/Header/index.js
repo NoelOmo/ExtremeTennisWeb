@@ -37,11 +37,12 @@ const Header = ({ t }) => {
           <S.WhiteHeaderTextSmall>
             info@extremetennis.com
           </S.WhiteHeaderTextSmall>
-          <S.CustomButtomLinkSmall style={{ width: "180px" }}>
+
+          {/* <S.CustomButtomLinkSmall style={{ width: "180px" }}>
             <S.Span>
-              <Button>{t("Book a Camp")}</Button>
+              <Button>{t("Book a Camp")}</Button> 
             </S.Span>
-          </S.CustomButtomLinkSmall>
+          </S.CustomButtomLinkSmall> */}
           <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
         </Row>
       </S.CustomeHeaderBg>

@@ -13,8 +13,8 @@ export const LogoContainer = styled(Link)`
 
 export const DarkLogoContainer = styled(Link)`
   display: inline-flex;
-  margin-left: 20px;
-  margin-top: 25px;
+  margin-left: 40px;
+
   height: 50px;
   width: 50px;
 `;
@@ -81,6 +81,8 @@ export const Menu = styled.h5`
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.1rem;
   color: #000000;
+  font-weight: bold;
+  font-style: italic;
 
   transition: color 0.2s ease-in;
   margin: 0.25rem 2rem;
@@ -146,6 +148,7 @@ export const CustomeHeaderBg = styled(NavLink)`
   background-color: green;
   width: 100%;
   text-align: left !important;
+  height: 60px;
 `;
 
 export const Label = styled.span`
