@@ -4,6 +4,9 @@ import { MenuOutlined } from "@ant-design/icons";
 
 export const Header = styled.header`
   padding: 0rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 `;
 
 export const LogoContainer = styled(Link)`
@@ -118,6 +121,7 @@ export const WhiteHeaderText = styled(NavLink)`
 
 export const WhiteHeaderTextSmall = styled(NavLink)`
   font-size: 1rem;
+  
   color: #ffffff;
   transition: color 0.2s ease-in;
   margin: auto 2rem;
@@ -145,6 +149,7 @@ export const Button = styled(NavLink)`
 
 export const CustomeHeaderBg = styled(NavLink)`
   font-size: 1rem;
+
   background-color: green;
   width: 100%;
   text-align: left !important;

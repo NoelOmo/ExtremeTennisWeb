@@ -28,21 +28,12 @@ const Header = ({ t }) => {
           <S.DarkLogoContainer to="/" aria-label="homepage">
             <SvgIcon src="logo1.svg" />
           </S.DarkLogoContainer>
-          {/* <S.WhiteHeaderText>ExtremeTennis</S.WhiteHeaderText> */}
-          {/* <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
-          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
-          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
-          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer> */}
+
           <S.WhiteHeaderTextSmall>+254 773 000 000</S.WhiteHeaderTextSmall>
           <S.WhiteHeaderTextSmall>
             info@extremetennis.com
           </S.WhiteHeaderTextSmall>
 
-          {/* <S.CustomButtomLinkSmall style={{ width: "180px" }}>
-            <S.Span>
-              <Button>{t("Book a Camp")}</Button> 
-            </S.Span>
-          </S.CustomButtomLinkSmall> */}
           <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
         </Row>
       </S.CustomeHeaderBg>
@@ -94,7 +85,7 @@ const Header = ({ t }) => {
         </Row>
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">
-            {/* <SvgIcon src="logo.svg" /> */}
+            g
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />
