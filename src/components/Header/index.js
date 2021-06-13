@@ -84,9 +84,7 @@ const Header = ({ t }) => {
           <HeaderBar />
         </Row>
         <Row type="flex" justify="space-between" gutter={20}>
-          <S.LogoContainer to="/" aria-label="homepage">
-            g
-          </S.LogoContainer>
+          <S.LogoContainer to="/" aria-label="homepage"></S.LogoContainer>
           <S.NotHidden>
             <MenuItem />
           </S.NotHidden>
